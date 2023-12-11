@@ -1,0 +1,178 @@
+body {
+    background-color: #FFF8EA !important;
+    color: #9F5C59 !important;
+    margin: 0 auto!important;
+   
+}
+
+
+
+
+.navbar {
+    background-color: #FFF8EA; 
+   
+}
+.navbar-collapse {
+    justify-content: flex-end; /* Align contents to the right */
+}
+
+.navbar-nav {
+    margin-right: 0; /* Remove any right margin on the navbar */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 30px; /* Add some space between nav items */
+}
+
+  /* Set the height of the carousel items */
+  .carousel-item {
+    max-height: 450px; /* Adjust the height as needed */
+  }
+
+  /* Set the maximum width of the carousel container */
+  #carouselExampleSlidesOnly {
+     /* Adjust the width as needed */
+    margin: 0 auto; /* Center the carousel on the page */
+  }
+
+/* Change the text color of the links in the navbar */
+.navbar-nav .nav-link {
+    color:rgba(159,92,89,255); /* Set your desired text color here */
+}
+.h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.image-column {
+    flex: 1;
+    margin: 10px;
+    
+}
+
+/* Default styles for larger screens */
+.image-column img {
+    /* Remove any extra space below the images */
+    padding-bottom: 50px;
+    border-color: #9F5C59;
+    width: 450px;
+    height: 375px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .image-column img {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    .image-column img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+
+.abc {
+    width: 1200px !important;
+    height: 450px !important;
+}
+.abc:hover + .popup {
+    display: block;
+  }
+
+  .popup {
+ display: none;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #9F5C59 !important;
+  background-color:rgba(255,255,255,0.5); 
+    padding: 10px;
+    
+   
+  }
+  
+  .ab {
+    padding: 15px 30px; /* Adjust the padding to make the button larger */
+    border-radius: 20px; /* Adjust the border-radius to make the edges rounder */
+    background-color:rgba(255,255,255,0.5);  ; /* Background color for the button */
+    color: #9F5C59; /* Text color */
+    font-size: 15px; /* Font size */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+    outline: 2px solid #9F5C59;;
+}
+
+  /* Style the arrow icon (Font Awesome) */
+  .fa-arrow-right {
+    margin-left: 10px; /* Add some spacing between the text and the arrow */
+  }
+  /* styles.css */
+
+/* Style for the footer container */
+footer {
+    background-color: #FFF8EA;
+    color: #9F5C59; 
+    padding: 20px 0;
+    outline: 2px solid #9F5C59;
+    
+}
+
+/* Style for the "THE ART GALLERY" heading */
+footer .about-footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for contact information */
+footer .about-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for the social media icons */
+footer .footer-social a {
+    color:#9F5C59; 
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-image {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-address {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-image img {
+    width: 250px;
+    height: 200px;
+}
+.center-align {
+    text-align: center;
+    
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    color: #9F5C59;
+}
